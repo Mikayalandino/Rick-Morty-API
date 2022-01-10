@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty - API</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- nav -->
+
+    <nav>
+        <div class="nav-left">
+            <a href=""><img class="logo-img" src="https://repository-images.githubusercontent.com/120371205/b6740400-92d4-11ea-8a13-d5f6e0558e9b" alt=""></a>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li>
+                    <button class="button-nav button-border-none">
+                        <a href="https://rickandmortyapi.com/documentation/" target="_blanck" style="color:#24282F;">Docs</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="button-nav button-border-none">
+                        <a href="https://rickandmortyapi.com/about" target="_blanck" style="color:#24282F";>About</a>
+                    </button>
+                </li>
+                <li>
+                    <button class="button-nav">
+                        <a href="https://rickandmortyapi.com/help-us/" target="_blanck" style="color:#24282F";>Help Creators</a>
+                    </button>
+                </li>
+            </ul>      
+        </div>   
+    </nav>
+
+    <!-- Main -->
+
+    <div> 
+        <div class="main-container-img">            
+            <img class="main-img" src="https://www.designinspiration.info/wp-content/uploads/2021/08/Rick_and_Morty_logo1-920x425.png" alt="">
+            <h1 class="title">(API)</h1>
+        </div>
+        <!-- Buscador -->
+        <form id="form">
+            <label>                
+                <i class="fas fa-search"></i>
+                <input type="text" id="buscador" placeholder="Search characters">
+            </label>
+        </form>
+    </div>
+
+    <main>
+        <div id="tarjetas-personajes"></div>
+        <!-- Paginado -->
+        <div class="paginado" id="paginado">
+            <button class="button-page" id="first-page button-sm"><i class="fas fa-step-backward"></i></button>
+            <button class="button-page" id="prev">Previous</button>
+            <button class="button-page" id="next">Next</button>
+            <button class="button-page" id="last-page button-sm"><i class="fas fa-step-forward"></i></button>
+        </div>
+    </main>
+
+
+    <!-- footer -->
+
+    <footer>
+        <div class="footer-first">           
+            <p>CHARACTERS: 826</p>
+            <p>LOCATIONS: 126</p>
+            <p>EPISODES: 51</p>
+            <p>SERVER STATUS 🟢</p>
+        </div>
+        <div class="footer-second">
+            <a class="footer-link" href="https://github.com/Mikayalandino" target="_blanck">
+                <i class="fab fa-github"></i>
+            </a>
+            <a class="footer-link" href="https://www.linkedin.com/in/mikayalandino/" target="_blanck">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a class="footer-link" href="mailto:Micaelayalandino@gmail.com">
+                <i class="far fa-envelope"></i>
+            </a>
+        </div>
+        <div class="footer-third">
+            <p class="footer-txt">❮❯ by </p>
+            <p class="footer-txt"><a class="footer-coder" href="https://github.com/Mikayalandino" target="_blanck" style="color: #ffd900ab;">Mika</a>
+            <p class="footer-txt">2022</p> 
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
