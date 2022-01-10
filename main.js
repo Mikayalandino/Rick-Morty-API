@@ -102,7 +102,7 @@ const cardIndidivudal = (data) => {
 
 // Paginado
 
-firstPage.onclick = () => {
+/* firstPage.onclick = () => {
     paginaActual = 1
     firstPage.disabled = true
     prev.disabled = true
@@ -142,6 +142,6 @@ lastPage.onclick = () => {
         lastPage.disabled = true
     }
     buscarInfo()
-}
+} */
 
 // Tarjeta individual
