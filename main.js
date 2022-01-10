@@ -23,10 +23,10 @@ buscarInfo()
 
 // Buscador
 
-form.onsubmit = (e) => {
+/* form.onsubmit = (e) => {
     e.preventDefault();
     buscarPersonaje(buscador.value)
-}
+} */
 
 // Tarjetas
 
