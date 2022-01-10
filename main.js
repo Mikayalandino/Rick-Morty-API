@@ -13,7 +13,7 @@ let paginaActual = 1
 let ultimaPagina = 0
 
 const buscarInfo = () => {
-    fetch(`https://rickandmortyapi.com/api/character?page=${paginaActual}`)
+    fetch(`https://www.rickandmortyapi.com/api/character?page=${paginaActual}`)
     .then((res) => res.json())
     .then((data) => {
         cardsPersonajes(data.results)
